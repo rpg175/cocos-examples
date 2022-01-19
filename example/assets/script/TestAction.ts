@@ -13,7 +13,7 @@ const { ccclass, property } = _decorator;
  * ManualUrl = https://docs.cocos.com/creator/3.3/manual/zh/
  *
  */
- 
+
 @ccclass('TestAction')
 export class TestAction extends Component {
     // [1]
@@ -23,7 +23,7 @@ export class TestAction extends Component {
     // @property
     // serializableDummy = 0;
 
-    start () {
+    start() {
         // [3]
     }
 
@@ -32,13 +32,3 @@ export class TestAction extends Component {
     // }
 }
 
-/**
- * [1] Class member could be defined like this.
- * [2] Use `property` decorator if your want the member to be serializable.
- * [3] Your initialization goes here.
- * [4] Your update function goes here.
- *
- * Learn more about scripting: https://docs.cocos.com/creator/3.3/manual/zh/scripting/
- * Learn more about CCClass: https://docs.cocos.com/creator/3.3/manual/zh/scripting/ccclass.html
- * Learn more about life-cycle callbacks: https://docs.cocos.com/creator/3.3/manual/zh/scripting/life-cycle-callbacks.html
- */
