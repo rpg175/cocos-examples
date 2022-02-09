@@ -1,9 +1,9 @@
 {
+  "creator": {
+    "version": "3.4.0"
+  },
   "name": "example",
   "type": "3d",
   "uuid": "cecf0a6f-66b4-428e-90b7-5d2e639b0edd",
-  "version": "3.3.2",
-  "creator": {
-    "version": "3.3.2"
-  }
+  "version": "3.4.0"
 }
